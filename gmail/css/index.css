@@ -1,0 +1,155 @@
+body{
+    background-color: transparent;
+}
+/* parent-div */
+.parent-div{
+    border: 1px solid red;
+    height: 97.5vh;
+    width: 100%;
+    display: flex;
+    background-color: #f4fbff;
+
+}
+.container{
+    border: 1px solid rebeccapurple;
+    height: 97.5vh;
+    width: 100%;
+}
+/* header */
+.header{
+    border: 1px solid red;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+}
+.header .parent-img{
+    height: 7vh;
+    width: 20%;
+    display: flex;
+}
+.header .parent-img .bar{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .parent-img .logo{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .parent-img .logo .logo-link{
+   
+    margin-left: 10px;
+}
+.header .parent-input{
+    height: 7vh;
+    width: 80%;
+    display: flex;
+}
+.header .parent-input .input-div{
+    display: flex;
+    width: 80%;
+    background-color: #f1f3f4;
+    border-radius: 20px;
+}
+.header .parent-input .input-div .search{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header .parent-input .input-div .input{
+    width: 90%;
+    
+}
+.icon-div{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+}
+/* body */
+.body{
+    border: 1px solid blue;
+    height: 90.1vh;
+    width: 100%; 
+    display: flex;  
+}
+.left-side-body{
+    border: 1px solid yellow;
+    height: 90.1vh;
+    width: 20%; 
+}
+.topleft-side-body-div{
+    height: 70px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.topleft-side-body-div-child{
+    background-color:lightblue;
+    width:50%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.middleleft-side-body-div{
+    border: 1px solid green;
+    height: 200px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#middleleft-side-body-div-child{
+    background-color:lightblue;
+    width:100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.middleleft-side-body-div-child{
+    width:100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.right-side-body{
+    border: 1px solid orange;
+    height: 90.1vh;
+    width: 80%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.side-icon{
+    border: 1px solid brown;
+    height: 97.5vh;
+    width: 4%;   
+}
